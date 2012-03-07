@@ -8,8 +8,8 @@ setup(
     version=version,
     description="A virtstrap plugin that installs bundler Gemfiles",
     long_description="""\
-A virtstrap plugin that installs bunder Gemfiles""",
-    classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+A virtstrap plugin that installs bundler's Gemfiles""",
+    classifiers=[],
     keywords='virtstrap ruby bundler virtualenv pip',
     author='Reuven V. Gonzales',
     author_email='reuven@tobetter.us',
@@ -19,7 +19,7 @@ A virtstrap plugin that installs bunder Gemfiles""",
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        #'virtstrap-local',
+        'virtstrap-local',
     ],
     entry_points={
         'virtstrap_local.plugins': [
